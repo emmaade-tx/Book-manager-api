@@ -1,6 +1,6 @@
 const gulp = require('gulp');
-
 const nodemon = require('gulp-nodemon');
+const gulpMocha = require('gulp-mocha');
 
 gulp.task('default', function() {
 	nodemon({
